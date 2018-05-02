@@ -16,7 +16,7 @@ import static de.robv.android.xposed.XposedHelpers.findClass;
 /**
  * hook 微信webview loadurl
  */
-public class WxLoadurl implements IXposedHookLoadPackage {
+public class WxLoadurlHookLoadPackage implements IXposedHookLoadPackage {
     @Override
     public void handleLoadPackage(XC_LoadPackage.LoadPackageParam loadPackageParam) throws Throwable {
         if (!loadPackageParam.packageName.equals("com.tencent.mm")) {

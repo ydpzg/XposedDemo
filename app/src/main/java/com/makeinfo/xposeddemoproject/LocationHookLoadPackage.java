@@ -12,7 +12,7 @@ import de.robv.android.xposed.callbacks.XC_LoadPackage;
  * hook地图
  * Created by Basil on 8/12/2015.
  */
-public class Tutorial121212 implements IXposedHookLoadPackage {
+public class LocationHookLoadPackage implements IXposedHookLoadPackage {
     @Override
     public void handleLoadPackage(XC_LoadPackage.LoadPackageParam loadPackageParam) throws Throwable {
         if (!loadPackageParam.packageName.equals("com.hgsoft.wk.main")) {
