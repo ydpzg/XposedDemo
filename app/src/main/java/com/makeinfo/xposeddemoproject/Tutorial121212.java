@@ -9,6 +9,7 @@ import de.robv.android.xposed.XposedHelpers;
 import de.robv.android.xposed.callbacks.XC_LoadPackage;
 
 /**
+ * hook地图
  * Created by Basil on 8/12/2015.
  */
 public class Tutorial121212 implements IXposedHookLoadPackage {
