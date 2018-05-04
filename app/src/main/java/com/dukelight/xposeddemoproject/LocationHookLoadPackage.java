@@ -1,4 +1,4 @@
-package com.makeinfo.xposeddemoproject;
+package com.dukelight.xposeddemoproject;
 
 import com.baidu.location.BDLocation;
 

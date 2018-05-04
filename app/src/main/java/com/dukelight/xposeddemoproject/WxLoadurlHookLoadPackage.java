@@ -1,9 +1,4 @@
-package com.makeinfo.xposeddemoproject;
-
-import android.graphics.Bitmap;
-import android.webkit.WebView;
-
-import java.util.Map;
+package com.dukelight.xposeddemoproject;
 
 import de.robv.android.xposed.IXposedHookLoadPackage;
 import de.robv.android.xposed.XC_MethodHook;

@@ -11,13 +11,11 @@
       <entry name="!?*.flex" />
       <entry name="!?*.kt" />
       <entry name="!?*.clj" />
+      <entry name="!?*.aj" />
     </wildcardResourcePatterns>
     <annotationProcessing>
-      <profile default="true" name="Default" enabled="true">
-        <processorPath useClasspath="false">
-          <entry name="E" />
-          <entry name="/AndroidstudioProjects/TestRecycleview/app/libs/butterknife-6.0.0.jar" />
-        </processorPath>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
       </profile>
     </annotationProcessing>
   </component>

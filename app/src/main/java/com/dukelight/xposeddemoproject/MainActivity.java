@@ -1,9 +1,9 @@
-package com.makeinfo.xposeddemoproject;
+package com.dukelight.xposeddemoproject;
 
 import android.app.Activity;
 import android.os.Bundle;
 
-import com.makeinfo.xposeddemo.R;
+import com.dukelight.xposeddemo.R;
 
 public class MainActivity extends Activity {
 

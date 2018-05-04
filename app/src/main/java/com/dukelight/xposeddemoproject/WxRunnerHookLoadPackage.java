@@ -1,4 +1,4 @@
-package com.makeinfo.xposeddemoproject;
+package com.dukelight.xposeddemoproject;
 
 import de.robv.android.xposed.IXposedHookLoadPackage;
 import de.robv.android.xposed.XC_MethodHook;
